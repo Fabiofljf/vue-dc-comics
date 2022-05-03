@@ -114,12 +114,21 @@
                 </div>
                 <div class="col">
                     <h4>follow us</h4>
+                    <span class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
                 </div>
             </div>
         </section>
         <!-- /#NavBar -->
     </footer>
 </template>
+
+
 
 <style lang="scss" scoped>
 @import '../assets/sass/variables.scss';
@@ -176,6 +185,7 @@
                             padding: 10px;
                             text-transform: uppercase;
                             color: white;
+                            font-weight: 600;
                             border: 1px solid $Bg-Primary;
                         }
                     }
@@ -183,6 +193,7 @@
                 .col{
                     h4{
                         text-transform: uppercase;
+                        font-weight: 600;
                         color: $Bg-Primary;
                     }
                 }

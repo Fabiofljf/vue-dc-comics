@@ -67,6 +67,8 @@
 #banner{
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
         .row{
             justify-content: space-around;
             align-items: center;
