@@ -112,15 +112,15 @@
                         <a href="#">sing-up now!</a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col d-flex align-items-center">
                     <h4>follow us</h4>
-                    <span class="icons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-pinterest-p"></i>
-                        <i class="fa-solid fa-location-dot"></i>
-                    </span>
+                    <div class="icons">
+                        <img src="@/assets/img/footer-facebook.png" alt="logo facebook">
+                        <img src="@/assets/img/footer-twitter.png" alt="logo twitter">
+                        <img src="@/assets/img/footer-youtube.png" alt="logo youtube">
+                        <img src="@/assets/img/footer-pinterest.png" alt="logo pinterest">
+                        <img src="@/assets/img/footer-periscope.png" alt="logo periscope">
+                    </div>
                 </div>
             </div>
         </section>
@@ -198,6 +198,12 @@
                     }
                 }
         }
+}
+
+.icons img{
+    width: 30px;
+    margin-top: 3px;
+    padding: 3px;
 }
 
 </style>
