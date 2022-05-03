@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <!-- /.col sx -->
-                    <div class="col-9">
+                    <div class="col">
                         <img src="../assets/img/dc-logo-bg.png" alt="logo dc">
                     </div>
                     <!-- /.col dx -->
@@ -120,6 +120,20 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.col{
+    h4{
+        color: white;
+        text-transform: uppercase;
+    }
+    li{
+        list-style-type: none;
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+    }
 }
 
 .col{

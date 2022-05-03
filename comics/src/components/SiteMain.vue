@@ -1,9 +1,9 @@
 <template>
-    <main id="project_core" class="debug">
-        <section id="core">
+    <main id="project_core">
+        <section id="core" class="debug">
             <div class="row">
                 <div class="col">
-                    <h2>Content goes here...</h2>
+                    <h2 class="text-light">Content goes here...</h2>
                 </div>
             </div>
             <!-- /.row -->
@@ -59,7 +59,7 @@
 
 //DEBUG
 .debug{
-    background-color: lightgreen;
+    background-color: black;
     height: 200px;
 }
 
@@ -76,6 +76,9 @@
         .card{
             display: flex;
             padding: 2rem;
+            color: white;
+            font-size: 14;
+            font-weight: 600;
                 img{
                     width: 50px;
                 }

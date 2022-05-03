@@ -9,34 +9,34 @@
           <div class="col navbar">
               <ul class="d-flex">
                 <li>
-                  <a href="">characters</a>
+                  <a href="#">characters</a>
                 </li>
                 <li>
-                  <a href="">comics</a>
+                  <a href="#">comics</a>
                 </li>
                 <li>
-                  <a href="">movies</a>
+                  <a href="#">movies</a>
                 </li>
                 <li>
-                  <a href="">tv</a>
+                  <a href="#">tv</a>
                 </li>
                 <li>
-                  <a href="">games</a>
+                  <a href="#">games</a>
                 </li>
                 <li>
-                  <a href="">collectibles</a>
+                  <a href="#">collectibles</a>
                 </li>
                 <li>
-                  <a href="">videos</a>
+                  <a href="#">videos</a>
                 </li>
                 <li>
-                  <a href="">fans</a>
+                  <a href="#">fans</a>
                 </li>
                 <li>
-                  <a href="">news</a>
+                  <a href="#">news</a>
                 </li>
                 <li>
-                  <a href="">shop</a>
+                  <a href="#">shop</a>
                 </li>
               </ul>
           </div>
@@ -49,11 +49,6 @@
 
 <style lang="scss" scoped>
 @import '../assets/sass/variables.scss';
-
-//DEBUG
-.debug{
-  background-color: lightblue;
-}
 
 //FOOTER
 #menu{
@@ -78,5 +73,10 @@ li{
   text-transform: uppercase;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+    a{
+      color: $C-NavBar;
+      font-weight: 600;
+      text-decoration: none;
+    }
 }
 </style>
