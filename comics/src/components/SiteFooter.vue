@@ -3,10 +3,10 @@
         <section id="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col d-flex">
+                    <div class="col d-flex p_2">
                         <div class="col">
                             <h4>dc comics</h4>
-                            <ul>
+                            <ul class="mb_1">
                                 <li>
                                     <a href="#">Characters</a>
                                 </li>
@@ -105,7 +105,18 @@
             </div>
         </section>
         <!-- /#footer -->
-        <section id="NavBar"></section>
+        <section id="NavBar">
+            <div class="row">
+                <div class="col">
+                    <div class="btn">
+                        <a href="#">sing-up now!</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>follow us</h4>
+                </div>
+            </div>
+        </section>
         <!-- /#NavBar -->
     </footer>
 </template>
@@ -121,25 +132,61 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.row{
+    justify-content: space-around;
+}
 .col{
-    h4{
-        color: white;
-        text-transform: uppercase;
-    }
-    li{
-        list-style-type: none;
-            a{
-                text-decoration: none;
-                color: grey;
-            }
+    .col{
+        margin: 10px;
+        h4{
+            color: white;
+            text-transform: uppercase;
+        }
+        li{
+            list-style-type: none;
+            margin-bottom: 0.1rem;
+                a{
+                    text-decoration: none;
+                    color: grey;
+                }
+        }
     }
 }
 
 .col{
     img{
-        width: 400px;
+        width: 600px;
+        margin-top: -120px;
     }
+}
+
+#NavBar{
+    height: 100px;
+    background-color: $Bg-Tertiary;
+    position: relative;
+    z-index: 1;
+    display: flex;
+        .row{
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+                .col{
+                    .btn{
+                        a{
+                            padding: 10px;
+                            text-transform: uppercase;
+                            color: white;
+                            border: 1px solid $Bg-Primary;
+                        }
+                    }
+                }
+                .col{
+                    h4{
+                        text-transform: uppercase;
+                        color: $Bg-Primary;
+                    }
+                }
+        }
 }
 
 </style>
