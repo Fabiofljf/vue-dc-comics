@@ -77,6 +77,10 @@ li{
       color: $C-NavBar;
       font-weight: 600;
       text-decoration: none;
+        &:hover{
+        color: $Bg-Primary;
+        border-bottom: 10px solid $Bg-Primary;
+        }
     }
 }
 </style>

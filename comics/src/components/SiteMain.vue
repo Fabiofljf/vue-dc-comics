@@ -13,36 +13,46 @@
             <div class="row">
                 <div class="col">
                     <div class="card">
-                        <img src="../assets/img/buy-comics-digital-comics.png" alt="digital comics">
-                        <h5>digital comics</h5>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-digital-comics.png" alt="digital comics">
+                            <h5>digital comics</h5>
+                        </a>
                     </div>
                 </div>
                 <!-- /.col -->
                 <div class="col">
                     <div class="card">
-                        <img src="../assets/img/buy-comics-merchandise.png" alt="dc merchandise">
-                        <h5>dc merchandise</h5>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-merchandise.png" alt="dc merchandise">
+                            <h5>dc merchandise</h5>
+                        </a>
                     </div>
                 </div>
                 <!-- /.col -->
                 <div class="col">
                     <div class="card">
-                        <img src="../assets/img/buy-comics-subscriptions.png" alt="subscriptions">
-                        <h5>subscriptions</h5>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-subscriptions.png" alt="subscriptions">
+                            <h5>subscriptions</h5>
+                        </a>
                     </div>
                 </div>
                 <!-- /.col -->
                 <div class="col">
                     <div class="card">
-                        <img src="../assets/img/buy-comics-shop-locator.png" alt="shop locator">
-                        <h5>comics shop locator</h5>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-shop-locator.png" alt="shop locator">
+                            <h5>comics shop locator</h5>
+                        </a>
                     </div>
                 </div>
                 <!-- /.col -->
                 <div class="col">
                     <div class="card">
-                        <img src="../assets/img/buy-dc-power-visa.svg" alt="dc power visa">
-                        <h5>dc power visa</h5>
+                        <a href="#">
+                            <img src="../assets/img/buy-dc-power-visa.svg" alt="dc power visa">
+                            <h5>dc power visa</h5>
+                        </a>
                     </div>
                 </div>
                 <!-- /.col -->
@@ -76,11 +86,13 @@
             flex-wrap: nowrap;
         }
         .card{
-            display: flex;
-            padding: 2rem;
-            color: white;
-            font-size: 14;
-            font-weight: 600;
+                a{
+                    display: flex;
+                    padding: 2rem;
+                    color: white;
+                    font-size: 14;
+                    font-weight: 600;
+                }
                 img{
                     width: 50px;
                 }
