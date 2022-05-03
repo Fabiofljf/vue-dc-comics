@@ -1,13 +1,13 @@
 <template>
   <header id="menu" class="debug">
       <div class="container">
-        <!-- <div class="row">
+        <div class="row">
           <div class="col">
-            <img src="" alt="">
+            <img src="../assets/img/dc-logo.png" alt="logo comics">
           </div>
-          <div class="col">
-            <div class="navbar">
-              <ul>
+          <!-- /.col sx -->
+          <div class="col navbar">
+              <ul class="d-flex">
                 <li>
                   <a href="">characters</a>
                 </li>
@@ -39,9 +39,9 @@
                   <a href="">shop</a>
                 </li>
               </ul>
-            </div>
           </div>
-        </div> -->
+          <!-- /.col dx -->
+        </div>
       </div>
       <!-- /#menu -->
   </header>
@@ -52,10 +52,29 @@
 .debug{
   background-color: lightblue;
 }
-// COMMONS
 
 //FOOTER
 #menu{
   height: 120px;
+}
+.row{
+  justify-content: space-around;
+}
+
+.col{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+img{
+  width: 75%;
+}
+
+li{
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 </style>
