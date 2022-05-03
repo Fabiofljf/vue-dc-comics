@@ -60,7 +60,7 @@
 //DEBUG
 .debug{
     background-color: lightgreen;
-    height: 500px;
+    height: 200px;
 }
 
 //MAIN
@@ -76,16 +76,15 @@
         .card{
             display: flex;
             padding: 2rem;
-        }
+                img{
+                    width: 50px;
+                }
 
-        img{
-            width: 50px;
-        }
-
-        h5{
-            text-transform: uppercase;
-            padding: 0.4rem;
-            align-self: center;
+                h5{
+                text-transform: uppercase;
+                padding: 0.4rem;
+                align-self: center;
+                }
         }
 }    
 
