@@ -133,6 +133,8 @@
 
 
 <style lang="scss" scoped>
+@import '../assets/sass/variables.scss';
+
 //FOOTER
 #footer{
     background-image: url('../assets/img/footer-bg.jpg');

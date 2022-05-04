@@ -11,6 +11,11 @@
                             <h6 class="text-light">{{card.series}}</h6>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <div class="btn text-light">
+                            <a href="#">load more</a>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.row -->
             </div>
@@ -157,6 +162,8 @@ export default ({
 
 
 <style lang="scss" scoped>
+@import '../assets/sass/variables.scss';
+@import '../assets/sass/style.scss';
 
 //DEBUG
 .debug{
@@ -210,6 +217,19 @@ export default ({
 
 .bg-row{
     background-color: $Bg-Primary;
+}
+
+.col-12{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .btn{
+        @include btn;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
 
 </style>
