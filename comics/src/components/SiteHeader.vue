@@ -8,7 +8,7 @@
           <!-- /.col sx -->
           <div class="col navbar">
               <ul class="d-flex">
-                <li v-for="({id, href, title}) in lists" :key="id">
+                <li v-for="({href, title}, index) in lists" :key="index">
                   <a :href="href">{{title}}</a>
                 </li>
               </ul>
