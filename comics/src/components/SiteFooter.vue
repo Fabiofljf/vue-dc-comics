@@ -112,6 +112,7 @@
                         <a href="#">sing-up now!</a>
                     </div>
                 </div>
+                <!-- /.col sx -->
                 <div class="col d-flex align-items-center">
                     <h4>follow us</h4>
                     <div class="icons">
@@ -122,6 +123,7 @@
                         <img src="@/assets/img/footer-periscope.png" alt="logo periscope">
                     </div>
                 </div>
+                <!-- /.col dx -->
             </div>
         </section>
         <!-- /#NavBar -->
@@ -131,8 +133,6 @@
 
 
 <style lang="scss" scoped>
-@import '../assets/sass/variables.scss';
-
 //FOOTER
 #footer{
     background-image: url('../assets/img/footer-bg.jpg');
