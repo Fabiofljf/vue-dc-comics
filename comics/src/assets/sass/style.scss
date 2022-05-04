@@ -1,2 +1,45 @@
+// COMMONS ROULES
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+//UTILITIES
+.container {
+    padding: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-light {
+    color: white;
+}
+
+.p_2 {
+    padding: 20px;
+}
+
+.mb_1 {
+    margin-bottom: 0.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 @import './partials/frameCol';
-@import './partials/default';

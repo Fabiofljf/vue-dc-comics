@@ -8,35 +8,8 @@
           <!-- /.col sx -->
           <div class="col navbar">
               <ul class="d-flex">
-                <li>
-                  <a href="#">characters</a>
-                </li>
-                <li>
-                  <a href="#">comics</a>
-                </li>
-                <li>
-                  <a href="#">movies</a>
-                </li>
-                <li>
-                  <a href="#">tv</a>
-                </li>
-                <li>
-                  <a href="#">games</a>
-                </li>
-                <li>
-                  <a href="#">collectibles</a>
-                </li>
-                <li>
-                  <a href="#">videos</a>
-                </li>
-                <li>
-                  <a href="#">fans</a>
-                </li>
-                <li>
-                  <a href="#">news</a>
-                </li>
-                <li>
-                  <a href="#">shop</a>
+                <li v-for="({id, href, title}) in lists" :key="id">
+                  <a :href="href">{{title}}</a>
                 </li>
               </ul>
           </div>
@@ -46,6 +19,70 @@
       <!-- /#menu -->
   </header>
 </template>
+
+<script>
+
+export default({
+  data() {
+    return {
+      lists:[
+        {
+        id: 1,
+        href: '#',
+        title: 'characters'
+        },
+        {
+        id: 2,
+        href: '#',
+        title: 'comics'
+        },
+        {
+        id: 3,
+        href: '#',
+        title: 'movies'
+        },
+        {
+        id: 4,
+        href: '#',
+        title: 'tv'
+        },
+        {
+        id: 5,
+        href: '#',
+        title: 'games'
+        },
+        {
+        id: 6,
+        href: '#',
+        title: 'collectibles'
+        },
+        {
+        id: 7,
+        href: '#',
+        title: 'videos'
+        },
+        {
+        id: 8,
+        href: '#',
+        title: 'fans'
+        },
+        {
+        id: 9,
+        href: '#',
+        title: 'news'
+        },
+        {
+        id: 10,
+        href: '#',
+        title: 'shop'
+        },
+      ]
+    }
+    
+  },
+})
+</script>
+
 
 <style lang="scss" scoped>
 @import '../assets/sass/variables.scss';
@@ -80,6 +117,7 @@ li{
         &:hover{
         color: $Bg-Primary;
         border-bottom: 10px solid $Bg-Primary;
+        padding-bottom: 46px;
         }
     }
 }
