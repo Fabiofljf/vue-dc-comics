@@ -9,7 +9,7 @@
           <div class="col navbar">
               <ul class="d-flex">
                 <li v-for="({href, title}, index) in lists" :key="index">
-                  <a :href="href">{{title}}</a>
+                  <a :href="href" :class="title === 'comics' ? 'active' : ''">{{title}}</a>
                 </li>
               </ul>
           </div>
@@ -114,7 +114,7 @@ li{
       color: $C-NavBar;
       font-weight: 600;
       text-decoration: none;
-        &:hover{
+        &:hover, &.active{
         color: $Bg-Primary;
         border-bottom: 10px solid $Bg-Primary;
         padding-bottom: 46px;

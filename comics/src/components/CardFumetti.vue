@@ -1,12 +1,11 @@
 <template>
     <div class="card">
         <img :src="img" alt="title">
-        <h6 class="text-light">{{title}}</h6>
+        <h5 class="text-light">{{title}}</h5>
     </div>
 </template>
 
 <script>
-
 
 export default({
     name: 'CardFumetti',
@@ -16,3 +15,7 @@ export default({
     },
 })
 </script>
+
+<style lang="less" scoped>
+
+</style>
