@@ -6,10 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2 p_2" v-for="(card, index) in cards" :key="index">
-                        <div class="card">
-                            <img :src="card.thumb" alt="card.series">
-                            <h6 class="text-light">{{card.series}}</h6>
-                        </div>
+                        <CardFumetti :img="card.thumb" :title="card.series" />
                     </div>
                     <div class="col-12">
                         <div class="btn text-light">
@@ -77,8 +74,13 @@
 </template>
 
 <script>
+import CardFumetti from '@/components/CardFumetti.vue'
 
-export default ({
+export default {
+    name: 'SiteMain',
+    components: {
+        CardFumetti
+    },
     data() {
         return {
             cards: [
@@ -157,7 +159,7 @@ export default ({
             ]
         }
     },
-})
+}
 </script>
 
 
